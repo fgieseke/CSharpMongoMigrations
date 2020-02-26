@@ -15,6 +15,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F9C3004D-9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-mongodb", "src\dotnet-mongodb\dotnet-mongodb.csproj", "{4565AF1C-6645-4428-AD32-0C67CE07F64F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ACC23326-C728-484A-B285-0B5848A0D030}"
+	ProjectSection(SolutionItems) = preProject
+		src\build_nuget.bat = src\build_nuget.bat
+		.github\workflows\dotnetcore.yml = .github\workflows\dotnetcore.yml
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
