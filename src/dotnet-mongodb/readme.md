@@ -1,5 +1,13 @@
 ﻿# dotnet mongodb
 
+Add a reference to your project file (*.csproj)
+
+```xml
+  <ItemGroup>
+    <DotNetCliToolReference Include="dotnet-mongodb" Version="1.2.0" />
+  </ItemGroup>
+```
+
 ## Commands
 
 ### migration
