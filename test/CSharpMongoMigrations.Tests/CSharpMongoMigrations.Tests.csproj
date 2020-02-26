@@ -23,7 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CSharpMongoMigrations\CSharpMongoMigrations.csproj" />
+    <ProjectReference Include="..\..\src\CSharpMongoMigrations\CSharpMongoMigrations.csproj" />
   </ItemGroup>
 
 </Project>

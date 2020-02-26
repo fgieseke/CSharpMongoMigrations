@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "mongoDBMigrations": {
+      "commandName": "Project",
+      "commandLineArgs": "migration up -c mongodb://localhost/Test -a Migrations"
+    }
+  }
+}
