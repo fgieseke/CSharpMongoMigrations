@@ -25,5 +25,15 @@
   <ItemGroup>
     <ProjectReference Include="..\CSharpMongoMigrations\CSharpMongoMigrations.csproj" />
   </ItemGroup>
+  <Target Name="IncludeRuntimeConfigJson" BeforeTargets="_GetPackageFiles">
+    <!-- Work around https://github.com/dotnet/sdk/issues/472 to include .runtimeconfig.json in the NuGet package -->
+    <PropertyGroup>
+      <_RuntimeConfigFile>$(OutputPath)$(TargetFrameworks)\$(AssemblyName).runtimeconfig.json</_RuntimeConfigFile>
+    </PropertyGroup>
+    <ItemGroup>
+      <Content Include="$(_RuntimeConfigFile)" Pack="true" PackagePath="lib\$(TargetFrameworks)" Visible="false" />
+    </ItemGroup>
+    <Message Text="Adding $(_RuntimeConfigFile) to NuGet package to work around https://github.com/dotnet/sdk/issues/472" Importance="high" />
+  </Target>
 
 </Project>
