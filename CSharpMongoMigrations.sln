@@ -15,8 +15,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{F9C3004D-9
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dotnet-mongodb", "src\dotnet-mongodb\dotnet-mongodb.csproj", "{4565AF1C-6645-4428-AD32-0C67CE07F64F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Migrations", "src\Migrations\Migrations.csproj", "{49D5EA8D-7E23-4B23-8334-D1DD76BA92F3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,10 +37,6 @@ Global
 		{4565AF1C-6645-4428-AD32-0C67CE07F64F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4565AF1C-6645-4428-AD32-0C67CE07F64F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4565AF1C-6645-4428-AD32-0C67CE07F64F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{49D5EA8D-7E23-4B23-8334-D1DD76BA92F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{49D5EA8D-7E23-4B23-8334-D1DD76BA92F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{49D5EA8D-7E23-4B23-8334-D1DD76BA92F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{49D5EA8D-7E23-4B23-8334-D1DD76BA92F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -52,7 +46,6 @@ Global
 		{E862FF52-5809-4455-B0E1-BDD5408E83C8} = {F9C3004D-9578-45DD-8838-9E64C3379B30}
 		{310926BA-E1A8-487C-B968-58E3916DBB66} = {BC1AA5F3-9070-4A13-B8FB-5DA86ECDA7F6}
 		{4565AF1C-6645-4428-AD32-0C67CE07F64F} = {BC1AA5F3-9070-4A13-B8FB-5DA86ECDA7F6}
-		{49D5EA8D-7E23-4B23-8334-D1DD76BA92F3} = {BC1AA5F3-9070-4A13-B8FB-5DA86ECDA7F6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3635FA5-E590-4219-A057-5A5685E68FEF}
